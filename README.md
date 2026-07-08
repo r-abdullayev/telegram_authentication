@@ -4,7 +4,7 @@ This project implements a basic authentication system via Telegram WebApp. It ve
 
 ---
 
-## 🧩 Features
+## Features
 
 - Authentication through Telegram WebApp
 - Validation of Telegram `initData`
@@ -14,7 +14,7 @@ This project implements a basic authentication system via Telegram WebApp. It ve
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language:** Java 21, JavaScript, HTML
 - **Frameworks:** Spring Boot, Spring Security
@@ -24,63 +24,16 @@ This project implements a basic authentication system via Telegram WebApp. It ve
 
 ---
 
-## 📂 Project Structure
+## Getting Started
 
-```
-telegram_authentication-main/
-├── .dockerignore
-├── .gitattributes
-├── .gitignore
-├── Dockerfile
-├── README.Docker.md
-├── compose.yaml
-├── mvnw
-├── mvnw.cmd
-├── pom.xml
-├── .mvn/
-│   └── wrapper/
-│       └── maven-wrapper.properties
-├── http-requests/
-│   └── get-userinfo.http
-├── src/
-│   └── main/
-│       ├── java/
-│       │   └── com/
-│       │       └── tg/
-│       │           └── authtelegram/
-│       │               ├── AuthTelegramApplication.java
-│       │               ├── bot/
-│       │               │   └── MyTelegramBot.java
-│       │               ├── config/
-│       │               │   └── BotConfig.java
-│       │               ├── controller/
-│       │               │   ├── TelegramAuthController.java
-│       │               │   └── ViewController.java
-│       │               ├── model/
-│       │               │   └── TelegramUser.java
-│       │               ├── repository/
-│       │               │   └── TelegramUserRepository.java
-│       │               └── service/
-│       │                   └── TelegramAuthService.java
-│       └── resources/
-│           ├── application.properties
-│           └── templates/
-│               ├── index.html
-│               └── telegram.html
-└── src/
-    └── test/
-        └── java/
-            └── com/
-                └── tg/
-                    └── authtelegram/
-                        └── AuthTelegramApplicationTests.java
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/IamAbdullayev/telegram_authentication.git
+cd telegram_authentication
 ```
 
----
-
-## 🔧 Environment Variables
-
-Create a `.env` file in the project root with the following variables:
+### 2. Create `.env` file with the following variables:
 
 ```env
 SPRING_DATASOURCE_URL=your_database_url
@@ -91,21 +44,6 @@ TELEGRAM_BOT_USERNAME=bot_username
 ```
 
 These variables are used in `compose.yaml` to configure the services.
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/IamAbdullayev/telegram_authentication.git
-cd telegram_authentication
-```
-
-### 2. Create `.env` file
-
-Define all environment variables as shown above.
 
 ### 3. Build and Run with Docker Compose
 ```bash
@@ -121,7 +59,7 @@ After running the app, open it locally in your browser:
 
 ---
 
-### 🌐 Make It Public with ngrok (for Telegram Mini App)
+### Make It Public with ngrok (for Telegram Mini App)
 
 To connect your Telegram Mini App to your backend, the application must be accessible from the internet. One easy way to achieve this in a local development environment is by using [ngrok](https://ngrok.com/).
 
@@ -149,11 +87,8 @@ To connect your Telegram Mini App to your backend, the application must be acces
 
 ---
 
-## 👤 Author
+## Author
 
 **Ramazan Abdullayev**  
 [GitHub](https://github.com/IamAbdullayev) · [Telegram](https://t.me/iamabdullayev) · [LinkedIn](https://www.linkedin.com/in/ramazanabdu11ayev)
 
----
-
-Feel free to contribute or open issues if you find bugs or have suggestions.
