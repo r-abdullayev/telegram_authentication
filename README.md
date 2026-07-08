@@ -90,5 +90,5 @@ To connect your Telegram Mini App to your backend, the application must be acces
 ## Author
 
 **Ramazan Abdullayev**  
-[GitHub](https://github.com/IamAbdullayev) · [Telegram](https://t.me/iamabdullayev) · [LinkedIn](https://www.linkedin.com/in/ramazanabdu11ayev)
+[GitHub](https://github.com/r-abdullayev) · [Telegram](https://t.me/ramazan_abdullayev) · [LinkedIn](https://www.linkedin.com/in/ramazanabdu11ayev)
 
